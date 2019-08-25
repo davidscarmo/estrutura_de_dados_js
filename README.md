@@ -10,3 +10,5 @@ Repositório com os exemplos estudados no livro "Estrutura de dados e algoritmos
 #Dia 4 - Foram estudados o uso de let e const tanto para variáveis quanto para objetos.
 
 #Dia 5 - Foram estudados as funções com valores default, operador de espelhamento. funções com parâmetros rest e os templates literais
+
+#Dia 6 - Foram estudados as funções de seta (=>) e formas de desestruturação de array. 
