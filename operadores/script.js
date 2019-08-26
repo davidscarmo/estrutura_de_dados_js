@@ -64,3 +64,18 @@ delete myObj.age;
 console.log(myObj); //exibe Object {name: 'John'}
 
 console.log("---------------Fim - operador delete ---------------");
+
+
+// operador exponencial 
+
+//modo antes da ES2016 
+
+//const area = 3.14 * Math.pow(r,2); 
+
+// a partir da ES2016 
+
+var r = 2;
+const area = 3.14 * (r ** 2); 
+console.log("---------------inicio - operador exponencial ---------------");
+console.log(area);
+console.log("---------------Fim - operador exponencial ---------------");
