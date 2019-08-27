@@ -14,3 +14,5 @@ Repositório com os exemplos estudados no livro "Estrutura de dados e algoritmos
 #Dia 6 - Foram estudados as funções de seta (=>) e formas de desestruturação de array. 
 
 #Dia 7 - Foram estudados o uso de classes, herança, getter and setters e do operador exponencial. 
+
+#Dia 8 - Foram estudados os arrays (Declaração, Acesso, Iteração, Acréscimo, Acréscimo na última posição) e o algoritmo da sequência de fibonacci.
