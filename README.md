@@ -16,3 +16,5 @@ Repositório com os exemplos estudados no livro "Estrutura de dados e algoritmos
 #Dia 7 - Foram estudados o uso de classes, herança, getter and setters e do operador exponencial. 
 
 #Dia 8 - Foram estudados os arrays (Declaração, Acesso, Iteração, Acréscimo, Acréscimo na última posição) e o algoritmo da sequência de fibonacci.
+
+#Dia 9 - Foram estudados os arrays(Acréscimo primeira posição, remoção última e primeira posição).
