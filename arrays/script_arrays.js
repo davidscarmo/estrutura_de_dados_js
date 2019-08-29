@@ -119,3 +119,14 @@ for(let i = 0; i < numbers.length; i++)
  numbers.shift();
 
  console.log("10: " + numbers);
+
+ //adição de um elemento em uma posição específica 
+
+ numbers.splice(5,3); //remove 3 elementos a partir da posição 5 no array - splice(1º posição do array, 2º quantidade de elementos)
+ console.log("11: "+ numbers);
+ 
+ numbers.splice(5,0,4,5,6);// insere 3 elementos a partir da 5 do array (2º == 0, ou seja não remove, 3ª posição em diante são os elementos adcs).
+ console.log("12: "+ numbers);
+ 
+ numbers.splice(5,3,4,5,6); // faz o mesmo que os dois anteriores, remove 3 elementos e adc 3 elementos tbm, a partir da p5 do array.
+ console.log("13: "+ numbers);
