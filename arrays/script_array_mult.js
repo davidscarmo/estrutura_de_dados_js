@@ -46,3 +46,45 @@ function printMatrix(myMatryx)
 }
 
 printMatrix(averageTemp);
+
+//montar o array multdimensional 
+
+const matrix3x3x3 = [];
+
+for(let i=0; i<3; i++)// i linha
+{
+    matrix3x3x3[i] = [];//é preciso inicializar cada array 
+    for(let j = 0; j <3; j++)//j coluna
+    {
+        matrix3x3x3[i][j] = [];
+        for(let z = 0; z<3; z++)//z dimensão
+        {
+            matrix3x3x3[i][j][z]; 
+        }
+    }
+}
+
+//para mostrar o array multdimensional
+
+/*
+for(let i = 0; i<matrix3x3x3.length;i++)
+{
+    for(let j = 0; j<matrix3x3x3[i]; j++)
+       {
+            for(let z = 0; z<matrix3x3x3[i][j]; z++)
+            {
+                console.log("a" + matrix3x3x3[i][j][z]);
+            }
+       }
+    }
+*/
+
+//juntando vários arrays
+
+const zero = 0;
+const positiveNumbers = [1,2,3];
+const negativeNumbers = [-3,-2,-1];
+
+let numbers = negativeNumbers.concat(zero,positiveNumbers);
+
+console.log(numbers);

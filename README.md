@@ -19,4 +19,6 @@ Repositório com os exemplos estudados no livro "Estrutura de dados e algoritmos
 
 #Dia 9 - Foram estudados os arrays(Acréscimo primeira posição, remoção última e primeira posição).
 
-#Dia 10 - Foram estudados novamento os arrays (adição e remoção em uma posição específica do array e os arrays bidimensionais).
+#Dia 10 - Foram estudados novamente os arrays (adição e remoção em uma posição específica do array e os arrays bidimensionais).
+
+#Dia 11 - Foram estudados os arrays multidimensionais, agrupamento de arrays(concat) e as referências para métodos de array. 
