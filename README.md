@@ -22,3 +22,5 @@ Repositório com os exemplos estudados no livro "Estrutura de dados e algoritmos
 #Dia 10 - Foram estudados novamente os arrays (adição e remoção em uma posição específica do array e os arrays bidimensionais).
 
 #Dia 11 - Foram estudados os arrays multidimensionais, agrupamento de arrays(concat) e as referências para métodos de array. 
+
+#Dia 12 - Foram estudos os meios de iteração - Função de Iteração, os métodos every, some, forEach, map, filter e reduce.
