@@ -53,3 +53,46 @@ function fatorial(x)
 }
 
 fatorial(6);
+
+//método laço for...of 
+
+for(const n of numbers)
+    console.log(n%2===0 ? 'even' : 'odd');
+
+//objeto @@iterator 
+
+let iterator = numbers[Symbol.iterator](); 
+
+//individual
+console.log("Iterator: " + iterator.next().value); //1
+console.log("Iterator: " + iterator.next().value); //2
+console.log("Iterator: " + iterator.next().value); //3
+console.log("Iterator: " + iterator.next().value); //4
+console.log("Iterator: " + iterator.next().value); //5
+
+//usando for...of 
+
+iterator = numbers[Symbol.iterator](); 
+for(const n of iterator)
+    console.log(n);
+
+//entries, keys e values de array 
+
+//entries 
+
+let aEntries = numbers.entries();//obtém um iterador de chave/valor 
+console.log(aEntries.next().value); // [0,1] [posição, valor]
+console.log(aEntries.next().value); //[1,2]
+console.log(aEntries.next().value);// [2,3]
+
+//keys 
+const aKeys = numbers.keys(); //obtém um iterador de chaves
+console.log(aKeys.next()); //{ value: 0, done: false } [chave, informa se acabaram os valores para iteração {undefined, done:true}]
+console.log(aKeys.next()); // { value: 1, done: false }
+console.log(aKeys.next()); // { value: 2, done: false }
+
+//values 
+const aValues = numbers.values();// valores do array 
+console.log(aValues.next()); //  { value: 1, done: false }[valor, informa se acabaram os valores para iteração {undefined, done:true}]
+console.log(aValues.next()); // { value: 2, done: false }
+console.log(aValues.next());// { value: 3, done: false }
