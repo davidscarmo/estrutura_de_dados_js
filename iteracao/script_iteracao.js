@@ -96,3 +96,51 @@ const aValues = numbers.values();// valores do array
 console.log(aValues.next()); //  { value: 1, done: false }[valor, informa se acabaram os valores para iteração {undefined, done:true}]
 console.log(aValues.next()); // { value: 2, done: false }
 console.log(aValues.next());// { value: 3, done: false }
+
+//método from 
+
+let numbers2 = Array.from(numbers); //copia o array numbers para o numbers2
+
+let evens = Array.from(numbers, x=>(x%2===0)); // (array a ser copiado, condição(par) pra determinar se é true ou false ; 
+console.log("Evens: " + evens);//[false,true,false,true,false,true,false,true,false,true,false,true,false,true,false]
+
+//método array of 
+
+let numbers3 = Array.of(1);
+console.log("Numbers3: " + numbers3);
+
+let numbers4 = Array.of(1,2,3,4,5,6);//apenas cria o array com os valores == numbers = [1,2,3,4,5,6];
+console.log("Numbers4: " + numbers4);
+
+//array of para cópia de outro array 
+
+let numbersCopy = Array.of(...numbers4); // faz a cópia do array numbers4 para o numbersCopy 
+console.log("NumbersCopy: " + numbersCopy);
+
+//método fill 
+
+numbersCopy.fill(0); //preenche todo o array com o número 0 
+console.log("NumbersCopy Fill: " + numbersCopy);
+
+numbersCopy.fill(2,1);//(valor a ser utilizado para preencher, posição inicial do preenchimento)
+console.log("NumbersCopy Fill2: " + numbersCopy); //[0,2,2,2,2,2]
+
+numbersCopy.fill(1,3,5); //(valor a ser utilizado para preencher, posição(index) inicial do preenchimento, posição final do preenchimento -> não é incluído)
+console.log("NumbersCopy Fill3: " + numbersCopy); //[0,2,2,1,1,2]
+
+//criando um array com fill 
+
+let ones = Array(6).fill(1); // array de tamanho 6 e preenchidos com 1
+console.log("Ones: " + ones);
+
+//método copyWithin 
+
+let copyArray = [1,2,3,4,5,6];
+
+copyArray.copyWithin(0,3); //copia os números a partir da posição 3 para a posição 0, [1,2,3,4,5,6] -> [4,5,6,4,5,6]
+console.log("copyArray1: " + copyArray); 
+
+copyArray = [1,2,3,4,5,6];
+
+copyArray.copyWithin(1,3,5); //copia os números da posição 3 até a posição 5(não incluso) do array para a posição 1 
+console.log("copyArray2: " + copyArray); // [1,2,3,4,5,6] -> [1,4,5,4,5,6]

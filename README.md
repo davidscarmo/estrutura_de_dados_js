@@ -23,6 +23,8 @@ Repositório com os exemplos estudados no livro "Estrutura de dados e algoritmos
 
 #Dia 11 - Foram estudados os arrays multidimensionais, agrupamento de arrays(concat) e as referências para métodos de array. 
 
-#Dia 12 - Foram estudos os meios de iteração - Função de Iteração, os métodos every, some, forEach, map, filter e reduce.
+#Dia 12 - Foram estudados os métodos de iteração - Função de Iteração, os métodos every, some, forEach, map, filter e reduce.
 
-#Dia 13 - Foram estudos os meios de iteração - for...of, o objeto @@iterator, entries, keys e values de array.
+#Dia 13 - Foram estudados os métodos de iteração - for...of, o objeto @@iterator, entries, keys e values de array.
+
+#Dia 14 - Foram estudados os métodos de iteração - from, array...of, fill e copyWithin. 
