@@ -28,3 +28,5 @@ Repositório com os exemplos estudados no livro "Estrutura de dados e algoritmos
 #Dia 13 - Foram estudados os métodos de iteração - for...of, o objeto @@iterator, entries, keys e values de array.
 
 #Dia 14 - Foram estudados os métodos de iteração - from, array...of, fill e copyWithin. 
+
+#Dia 15 - Foram estudados as formas de ordenamento utilizando o método sort(). 
