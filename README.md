@@ -30,3 +30,5 @@ Repositório com os exemplos estudados no livro "Estrutura de dados e algoritmos
 #Dia 14 - Foram estudados os métodos de iteração - from, array...of, fill e copyWithin. 
 
 #Dia 15 - Foram estudados as formas de ordenamento utilizando o método sort(). 
+
+#Dia 16 - Foram estudados os métodos de pesquisa indexOf, lastIndexOf, find, findIndex, includes e também exemplos de conversão de array, tipagem de arrays e arrays em TypeScript.  
