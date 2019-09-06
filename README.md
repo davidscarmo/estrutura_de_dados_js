@@ -34,3 +34,5 @@ Repositório com os exemplos estudados no livro "Estrutura de dados e algoritmos
 #Dia 16 - Foram estudados os métodos de pesquisa indexOf, lastIndexOf, find, findIndex, includes e também exemplos de conversão de array, tipagem de arrays e arrays em TypeScript.  
 
 #Dia 17 - Instalação do node no projeto - apresentou erro. 
+
+#Dia 17 - O erro do node foi consertado, foram estudados alguns conceitos de pilha. 
