@@ -35,4 +35,6 @@ Repositório com os exemplos estudados no livro "Estrutura de dados e algoritmos
 
 #Dia 17 - Instalação do node no projeto - apresentou erro. 
 
-#Dia 17 - O erro do node foi consertado, foram estudados alguns conceitos de pilha. 
+#Dia 18 - O erro do node foi consertado, foram estudados alguns conceitos de pilha. 
+
+#Dia 19 - Foram estudados as pilhas com array e baseada em objeto.

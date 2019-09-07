@@ -31,3 +31,30 @@ class Stack{
     }
 }
 
+//utilizando a classe stack 
+
+//instanciando a classe 
+
+const stack = new Stack();
+
+console.log(stack.isEmpty()); //testando se a pilha está vazia 
+
+stack.push(5);//add o 5 na pilha 
+stack.push(8);//add o 8 na pilha, na última posição
+
+console.log(stack.peek()); //vericando qual o número add na pilha - 8
+
+stack.push(11);
+console.log(stack.size());//vericando o tamanho atual da pilha, no caso, size = 3
+console.log(stack.isEmpty()); //verificando se a pilha está vazia, não está, retorna false
+
+stack.push(15);
+
+console.log(stack);
+
+//removendo itens da pilha 
+
+stack.pop();
+stack.pop();
+console.log(stack.size());
+
