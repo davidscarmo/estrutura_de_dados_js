@@ -1,6 +1,3 @@
-//classe pilha baseada em objeto 
-
-
 class Stack
 {
     constructor()
@@ -65,8 +62,27 @@ class Stack
 }
 
 
-const stack = new Stack(); 
-stack.push(5);
-stack.push(8);
+function decimalToBinary(decNumber)
+{
+    const remStack = new Stack(); 
+    let number = decNumber;
+    let rem; 
+    let binaryString = ''; 
 
-console.log(stack);
+    while(number>0)
+    {
+        rem = Math.floor(number%2); //utilza o método flor para retornar um inteiro 
+        remStack.push(rem);//adiciona o valor de rem na pilha 
+        number = Math.floor(number/2); //divide o number por 2 (inteiro)
+    }
+    while(!remStack.isEmpty())
+    {
+        binaryString += remStack.pop().toString(); //limpa remStack e passa os valores para a sting binaryString
+    }
+    return binaryString;
+}
+
+console.log(decimalToBinary(100)); //1100100
+console.log(decimalToBinary(10));//1010
+console.log(decimalToBinary(1000));//1111101000
+console.log(decimalToBinary(2));//1
