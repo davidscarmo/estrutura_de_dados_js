@@ -40,3 +40,5 @@ Repositório com os exemplos estudados no livro "Estrutura de dados e algoritmos
 #Dia 19 - Foram estudados as pilhas com array e baseada em objeto.
 
 #Dia 20 - Foi continuado o estudo de pilhas, foi feita a utilização da pilha para fazer um conversor de base decimal para base binária.  
+
+#Dia 21 - Conclusão do estudo sobre pilhas, foi feito um algoritmo de conversão de bases. 
