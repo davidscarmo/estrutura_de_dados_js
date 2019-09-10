@@ -96,4 +96,3 @@ console.log(baseConverter(100345, 8)); //octal - 303771
 console.log(baseConverter(100345, 16)); //hexadecimal - 187F9
 console.log(baseConverter(100345, 35)); //base 35 - 2BW0
 
-console.log("Dela: " + baseConverter(35,36));
