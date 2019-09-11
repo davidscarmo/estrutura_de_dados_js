@@ -43,4 +43,6 @@ Repositório com os exemplos estudados no livro "Estrutura de dados e algoritmos
 
 #Dia 21 - Conclusão do estudo sobre pilhas, foi feito um algoritmo de conversão de bases. 
 
-#Dia 22 - Foi estudado o conceito de pilha, foi criada uma classe Queue(fila) e foram usando os métodos dessa classe.
+#Dia 22 - Foi estudado o conceito de fila, foi criada uma classe Queue(fila) e foram usando os métodos dessa classe. 
+
+#Dia 23 - Foi estudado o conceito de deque, foi criada a classe Deque com os seus métodos.
