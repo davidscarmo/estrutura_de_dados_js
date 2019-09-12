@@ -46,3 +46,5 @@ Repositório com os exemplos estudados no livro "Estrutura de dados e algoritmos
 #Dia 22 - Foi estudado o conceito de fila, foi criada uma classe Queue(fila) e foram usando os métodos dessa classe. 
 
 #Dia 23 - Foi estudado o conceito de deque, foi criada a classe Deque com os seus métodos.
+
+#Dia 24 - Continuação do deque - foram utilizados os métodos da classe e foi criada uma função para simular a brincadeira da batata quente. 

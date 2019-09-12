@@ -97,3 +97,25 @@ class Deque
     }
 }
 
+const deque = new Deque(); 
+console.log(deque.isEmpty()); // true
+
+deque.addBack('John');
+deque.addBack('Jack'); 
+
+console.log(deque.toString()); //John, Jack 
+deque.addBack('Camila');
+
+console.log(deque.toString()); //John, Jack, Camila
+console.log(deque.size()); // 3 
+
+console.log(deque.isEmpty()); //false
+
+deque.removeFront(); //retira John do deque 
+console.log(deque.toString()); //Jack, Camila
+
+deque.removeBack(); //retira Camila
+console.log(deque.toString()); //Jack 
+
+deque.addBack('John'); //John é adicionado novamente na frente do deque
+console.log(deque.toString()); //John, Jack
