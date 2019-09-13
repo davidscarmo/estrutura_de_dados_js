@@ -48,3 +48,5 @@ Repositório com os exemplos estudados no livro "Estrutura de dados e algoritmos
 #Dia 23 - Foi estudado o conceito de deque, foi criada a classe Deque com os seus métodos.
 
 #Dia 24 - Continuação do deque - foram utilizados os métodos da classe e foi criada uma função para simular a brincadeira da batata quente. 
+
+#Dia 25 - Foi criado uma funçao para a checagem se uma palavra/frase é um palíndromo ou não usando a classe deque criada anteriormente. 
