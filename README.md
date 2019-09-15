@@ -52,3 +52,5 @@ Repositório com os exemplos estudados no livro "Estrutura de dados e algoritmos
 #Dia 25 - Foi criado uma funçao para a checagem se uma palavra/frase é um palíndromo ou não usando a classe deque criada anteriormente.
 
 #Dia 26 - Foram estudados os módulos(import e export) e o conceito de listas ligadas.
+
+#Dia 27 - Foi estudado o método push() na class LinkedList (lista ligada).
