@@ -54,7 +54,7 @@ export default class LinkedList {
 
                 const previous = this.getElementAt(index-1); //recebe o node anterior ao que se deseja apagar
                 current = previous.next; //recebe o node que está o element que deseja apagar
-                previous.next = current.next;  // o node ao anterior que deseja excluir recebe o node posterior ao que deseja excluir
+                previous.next = current.next;  // o node anterior do que se deseja excluir recebe o node posterior do que se deseja excluir
             }
             this.count--;
             return current.element; 
@@ -78,6 +78,44 @@ export default class LinkedList {
         return undefined;
     }
 
+    insert(element, index)
+    {
+        if(index >= 0 && index <= this.count)
+        {
+            const node = new Node(element);
+            if (index === 0)
+             {
+                const current = this.head; //currente recebe o node atual 
+                node.next = current; //next recebe o node atual 
+                this.head = node; // this.head recebe o node    
+            }
+            else
+            {
+                const previous = this.getElementAt(index-1); //previous recebe o node da posição anterior ao que se deseja inserir 
+                const current = previous.next; // current recebe o "apontamento" posição que se quer inserir 
+                node.next = current; // node.next recebe o "apontamento" 
+                previous.next = node; // previous.next recebe o node já com o apontamento pra posição desejada 
+            }
+            this.count++;
+            return true;
+        }
+        return false;
+    }
+
+    indexOF(element)
+    {
+        let current = this.head; // recebe o primeiro nó 
+        for(let i = 0; i<this.count && current != null; i++) // se o i for menor que o tamanho da lista e a lista não for nula
+        {
+            if(this.equalsFn(element, current.element)) //comparar o elemento passado com o elemento do nó 
+                return i; 
+
+            current = current.next; //current recebe o próximo nó (iteração) até chegar ou não em um que seja compatível com o elemento passado
+        }
+
+        return -1;//caso o valor não seja encontrado 
+    }
+    
 }
 
 const list = new LinkedList();
