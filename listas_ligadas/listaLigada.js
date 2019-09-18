@@ -116,10 +116,58 @@ export default class LinkedList {
         return -1;//caso o valor não seja encontrado 
     }
     
+    remove(element)
+    {
+        const index = this.indexOF(element);//recebe a posição do nó de indexOF
+        return this.removeAt(index);// passa o parâmetro para removeAt remover o item com base no index
+    }
+
+    size()
+    {
+        return this.count;//retorna o número de elementos
+    }
+
+    isEmpty()
+    {
+        return this.size() === 0; //retorna se está vazio ou não 
+    }
+
+    getHead()
+    {
+        return this.head; //retorna a lista a partir do primeiro node 
+    }
+    toString()
+    {
+        if(this.head == null)
+            return '';
+        
+        let objString = `${this.head.element}`; 
+        let current = this.head.next;
+        for(let i = 1; i<this.size() && current != null; i++)
+        //se current que recebeu o head.next for null quer dizer que é a lista só tem um elemento e não porque incrementar
+        {
+            objString = `${objString},${current.element}`;
+            current = current.next; // current recebe o próximo nó 
+        }
+        return objString;
+    }
 }
 
 const list = new LinkedList();
 list.push(15);
 list.push(10);
+list.push(16);
+list.push(25);
 
-console.log(list);
+console.log(list.toString());//transforma o objeto em uma string
+
+console.log(list.indexOF(25)); //localizando o index do element 
+
+console.log(list.removeAt(3));//remoção por index 
+console.log(list.toString());
+
+list.insert(99,1)//inserção do elemento com index definido
+console.log(list.toString());
+
+list.remove(15);//remoção do elemento específico 
+console.log(list.toString());
