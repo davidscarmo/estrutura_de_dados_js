@@ -60,3 +60,5 @@ Repositório com os exemplos estudados no livro "Estrutura de dados e algoritmos
 #Dia 29 - Foi continuado o estudo dos métodos do linkedList, foram estudados os métodos insert() e indexOf. 
 
 #Dia 30 - Foram concluídos os métodos da classe linkedList e foram usados os métodos da classe.  
+
+#Dia 31 - Foi estudado o conceito de lista duplamente ligada e foram iniciadas as classe DoublyList e DoublyLinkedList(foi feito o método insert da classe);
